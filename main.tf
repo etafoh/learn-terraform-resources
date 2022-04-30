@@ -2,7 +2,6 @@ provider "aws" {
   access_key = var.access-key
   secret_key = var.key-value 
   region = "us-east-1"
-  alias = "dev"
 }
 
 variable "access-key" {
